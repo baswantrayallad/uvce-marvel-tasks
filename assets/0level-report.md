@@ -184,6 +184,11 @@ I have created  a basic portfolio webpage using HTML + CSS (Tailwind) + JavaScri
 
 ---------------------
 
+## **Task 8: Writting Resource Article**
+
+I have writen an article on process-multithreading
+
+
 
 
 
@@ -194,6 +199,7 @@ I have created  a basic portfolio webpage using HTML + CSS (Tailwind) + JavaScri
   
 
  
+
 
 
 
