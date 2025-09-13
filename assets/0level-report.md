@@ -239,6 +239,17 @@ The burglar alarm should work based on the whether the **door is locked or open*
 
 
 
+## **Task 19: Making of a WebApp - Notes-made-easy**
+i have used JavaScript for working of taking input note, adding and deletion.
+Html5 for frontend
+Css for styling and cascading the webapp
+
+[Website Link]()
+
+[Github Repo]()
+
+
+
 
 
 
@@ -252,6 +263,7 @@ The burglar alarm should work based on the whether the **door is locked or open*
   
 
  
+
 
 
 
