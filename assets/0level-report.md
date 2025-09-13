@@ -172,7 +172,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
 - Improved **debugging & puzzle-solving skills** through experimentation.
 
 
- ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%206%20Martix%20Puzzle%202.png?raw=true)
+ ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%206%20Matrix%20Puzzle%201.png?raw=true)
 
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%206%20Martix%20Puzzle%202.png?raw=true)
 
@@ -186,6 +186,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
   
 
  
+
 
 
 
