@@ -244,9 +244,9 @@ i have used JavaScript for working of taking input note, adding and deletion.
 Html5 for frontend
 Css for styling and cascading the webapp
 
-[Website Link]()
+[Website Link](marvel-task-19-zeta.vercel.app)
 
-[Github Repo]()
+[Github Repo](https://github.com/baswantrayallad/marvel-task-19)
 
 
 
@@ -263,6 +263,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
