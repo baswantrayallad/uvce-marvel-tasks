@@ -222,6 +222,14 @@ As part of this task, I familiarized myself with the soldering equipment availab
 I then performed a basic soldering exercise on a perf board (green PCB) by soldering a single LED. This gave me hands-on practice in heating the joint, applying solder.,,
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2012%202.png?raw=true)
 
+## Task 14: Karnaugh Maps and Deriving the Logic Circuit  
+
+In this task, I learned how to use **Karnaugh Maps (K-Maps)** to simplify Boolean expressions and design a simple burglar alarm circuit.  
+The burglar alarm should work based on the whether the **door is locked or open**, whether the **key is pressed or not pressed**.  By using these conditions on a **4-variable K-Map**, I identified the simplified Boolean expression for the output. This logic was then used to design a circuit using **logic gates**. 
+
+### Image:
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2014%20Kmap.png?raw=true)  
+
 
 
 
@@ -235,6 +243,7 @@ I then performed a basic soldering exercise on a perf board (green PCB) by solde
   
 
  
+
 
 
 
