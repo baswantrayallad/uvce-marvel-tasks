@@ -194,6 +194,25 @@ I have writen an article on process-multithreading
 Tinkercad Circuits is a free, browser-based electronic circuit simulator that allows users to design, test, and program electronic circuits online without needing physical hardware.
 It supports popular microcontrollers like the Arduino Uno, Micro, H-brigde, potentiometer, BreadBoard etc.
 
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%209%20Thinkercad.png?raw=true)
+
+## **Task 10: Speed Control of DC Motor**
+
+The task of **speed control of a DC motor using Arduino UNO and L298N motor driver** was successfully completed. The experiment provided practical exposure to motor driver interfacing, PWM control, and real-time hardware validation.
+
+
+
+
+
+
+
+## **Task 11: LED Toggle Using ESP**
+Here, i configured the Arduino IDE to program the ESP32 and used the WiFi.h library to connect the board to a local network. Two LEDs were connected to GPIO26 and GPIO27. A standalone web server was created on port 80, which served a simple HTML interface with ON/OFF buttons.
+
+
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2011%20(1).jpg?raw=true)
+
+After uploading the code, the ESP32 displayed an **IP address** on the Serial Monitor. Accessing this IP in a browser opened the control page. Clicking the buttons successfully toggled the LEDs in real time.
 
 
 
@@ -207,6 +226,7 @@ It supports popular microcontrollers like the Arduino Uno, Micro, H-brigde, pote
   
 
  
+
 
 
 
