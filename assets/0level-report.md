@@ -177,6 +177,14 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%206%20Martix%20Puzzle%202.png?raw=true)
 
 
+## **Task 7: Creating Portfolio webpage**
+I have created  a basic portfolio webpage using html5 and CSS.
+
+[link](https://portfolio-git-dachatbot-shrihari-jawalgis-projects.vercel.app/)
+
+---------------------
+
+
 
 
 
@@ -186,6 +194,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
   
 
  
+
 
 
 
