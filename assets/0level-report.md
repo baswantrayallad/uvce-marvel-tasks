@@ -120,6 +120,36 @@ cat file1.txt file2.txt
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%201.png?raw=true)
 
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
+```
+
+## 🧠 Task 5: Build Your Own Brain - Linear Regression from Scratch
+
+In this task, we dive into the **core of machine learning** by implementing **Linear Regression from scratch** and comparing it with **scikit-learn’s implementation**.  
+We will use the **California Housing dataset** to test the model on real-world data.
+
+1. **Linear Regression Fundamentals**  
+   - Understood how a straight line can be used to model the relationship between features and target values.  
+   - Learned the role of weights and bias in fitting the model.  
+
+2. **Gradient Descent Optimization**  
+   - Realized how gradient descent updates weights step by step to minimize error.  
+   - Saw the importance of choosing the right learning rate to ensure convergence.  
+
+3. **Feature Scaling Importance**  
+   - Learned that without normalization/standardization, gradient descent becomes slow or unstable.  
+
+4. **Model Evaluation Metrics**  
+   - Understood how to measure model performance using **MSE, MAE, and R² Score**.  
+   - Learned how each metric provides a different perspective on accuracy.  
+
+5. **Scratch vs Scikit-learn**  
+   - Implementing from scratch gave me a clear view of the math behind the model.  
+   - Using scikit-learn showed the power and convenience of built-in libraries.  
+   - I understood the trade-off between **learning by building from scratch** vs **efficiency in real-world projects**.  
+
+---
+
+
 
 
 
@@ -129,6 +159,7 @@ cat file1.txt file2.txt
   
 
  
+
 
 
 
