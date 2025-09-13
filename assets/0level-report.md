@@ -188,6 +188,8 @@ I have created  a basic portfolio webpage using HTML + CSS (Tailwind) + JavaScri
 
 I have writen an article on process-multithreading
 
+[link](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/TASK%208%20%20Resource%20Article/process-vs-thread/process-multithreading.md)
+
 
 
 
@@ -199,6 +201,7 @@ I have writen an article on process-multithreading
   
 
  
+
 
 
 
