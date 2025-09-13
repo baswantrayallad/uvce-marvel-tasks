@@ -190,6 +190,12 @@ I have writen an article on process-multithreading
 
 [link](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/TASK%208%20%20Resource%20Article/process-vs-thread/process-multithreading.md)
 
+## **Task 9: TinkedCad**
+Tinkercad Circuits is a free, browser-based electronic circuit simulator that allows users to design, test, and program electronic circuits online without needing physical hardware.
+It supports popular microcontrollers like the Arduino Uno, Micro, H-brigde, potentiometer, BreadBoard etc.
+
+
+
 
 
 
@@ -201,6 +207,7 @@ I have writen an article on process-multithreading
   
 
  
+
 
 
 
