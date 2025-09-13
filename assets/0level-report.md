@@ -13,9 +13,48 @@ It defines the methods and data formats that applications can use to **request a
 
 APIs facilitate the integration of different systems, enabling them to **work together seamlessly**.
 
+code:
+$(function () {
+  $("#myForm").submit(function (e) {
+    e.preventDefault();
+
+    var city = $("#city").val();
+
+    getWeather(city);
+  });
+});
+
+function getWeather(city) {
+  $(".weather-temperature").openWeather({
+    key: "ea5ceda552fc62d695e46455e0a5ddbb",
+    city: city,
+    descriptionTarget: ".weather-description",
+    windSpeedTarget: ".weather-wind-speed",
+    minTemperatureTarget: ".weather-min-temperature",
+    maxTemperatureTarget: ".weather-max-temperature",
+    humidityTarget: ".weather-humidity",
+    sunriseTarget: ".weather-sunrise",
+    sunsetTarget: ".weather-sunset",
+    placeTarget: ".weather-place",
+    iconTarget: ".weather-icon",
+    customIcons: "../src/img/icons/weather/",
+    success: function (data) {
+      // show weather
+      $(".weather-wrapper").show();
+      console.log(data);
+    },
+    error: function (data) {
+      console.log(data.error);
+      $(".weather-wrapper").remove();
+    },
+  });
+}
+
+
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%202%20API.png?raw=true)
 
 ---
+
 
 
 
