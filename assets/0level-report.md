@@ -235,6 +235,8 @@ The burglar alarm should work based on the whether the **door is locked or open*
 
 ### **MARVELops: DOCKER 101 WORKSHOP CONDUCTED BY MARVEL**
 
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2015%20Active%20Participation.png?raw=true)
+
 
 
 
@@ -250,6 +252,7 @@ The burglar alarm should work based on the whether the **door is locked or open*
   
 
  
+
 
 
 
