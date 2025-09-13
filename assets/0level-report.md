@@ -1,4 +1,4 @@
-# **MARVEL Club Chronicles🔥**
+# **MARVEL TASKS🔥**
 ------------------------------------------------------
 ## **Task 1: 3D Printing**
 
@@ -13,7 +13,11 @@ It defines the methods and data formats that applications can use to **request a
 
 APIs facilitate the integration of different systems, enabling them to **work together seamlessly**.
 
-code:
+## 🌦️ Weather API Integration (Example)
+
+The following code integrates the **OpenWeather API** with jQuery to fetch and display live weather data.
+
+```javascript
 $(function () {
   $("#myForm").submit(function (e) {
     e.preventDefault();
@@ -54,6 +58,38 @@ function getWeather(city) {
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%202%20API.png?raw=true)
 
 ---
+
+## 🐙 Task 3: Working with GitHub
+
+### 🌐 What is GitHub?
+GitHub is a platform that allows developers to **automate software development workflows** directly within a repository.  
+It supports **Continuous Integration and Continuous Deployment (CI/CD)** processes, making it easier for teams to collaborate and streamline their pipelines.
+
+---
+
+### 🍴 Forking
+- **Forking** means creating a **personal copy** of someone else’s repository.  
+- This copy includes the entire version history of files.  
+- A fork lets you experiment or modify the project **without affecting the original repo**.
+
+---
+
+### 🔄 Pull Request (PR)
+- A **Pull Request** is a **proposed code change** submitted by a developer.  
+- It is used for **review and integration** into the main codebase.  
+- PRs enable:
+  - Peer code reviews 👨‍💻👩‍💻  
+  - Discussion before merging  
+  - Maintaining code quality ✅  
+
+---
+
+✨ **In short**:  
+- Fork → Copy a project  
+- Edit → Make changes in your fork  
+- PR → Propose your changes to the original project
+
+
 
 
 
