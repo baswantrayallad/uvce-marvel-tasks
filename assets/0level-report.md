@@ -121,8 +121,7 @@ cat file1.txt file2.txt
 
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
 
-```
-```
+
 ## Task 5: Build Your Own Brain - Linear Regression from Scratch
 
 
@@ -265,6 +264,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
