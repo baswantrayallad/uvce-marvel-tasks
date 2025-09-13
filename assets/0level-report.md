@@ -60,6 +60,46 @@ function getWeather(city) {
 
 ---
 
+## 🐙 Task 3: Working with GitHub
+
+### 🌐 What is GitHub?
+GitHub is a platform that allows developers to **automate software development workflows** directly within a repository.  
+It supports **Continuous Integration and Continuous Deployment (CI/CD)**, making it easier for teams to collaborate and streamline their development pipelines.
+
+---
+
+### Forking
+- **Forking** means creating a **personal copy** of someone else’s repository.  
+- This copy contains all the files and complete version history.  
+- A fork allows you to **experiment or modify** without affecting the original project.  
+
+---
+
+### Pull Request (PR)
+- A **Pull Request (PR)** is a way to **propose code changes** to a project.  
+- Developers submit a PR for **review and integration** into the main codebase.  
+- PRs are essential for:
+  - Peer code reviews 👨‍💻👩‍💻  
+  - Team collaboration 🤝  
+  - Maintaining project quality ✅  
+
+---
+
+ **In summary:**  
+- **Fork** → Copy the repository  
+- **Edit/Commit** → Make your changes  
+- **Pull Request** → Suggest changes to be merged into the original project
+
+ ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%203%20Working%20with%20github%201.png?raw=true)
+
+  ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%203%20Working%20with%20github%202.png?raw=true)
+
+ ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%203%20Working%20with%20github%203.png?raw=true)
+  
+
+ 
+
+
 
 
 
