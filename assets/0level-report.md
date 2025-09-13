@@ -13,9 +13,10 @@ It defines the methods and data formats that applications can use to **request a
 
 APIs facilitate the integration of different systems, enabling them to **work together seamlessly**.
 
-![Logo] (https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%202%20API.png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%202%20API.png?raw=true)
 
 ---
+
 
 
 
