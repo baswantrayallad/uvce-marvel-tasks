@@ -13,9 +13,10 @@ It defines the methods and data formats that applications can use to **request a
 
 APIs facilitate the integration of different systems, enabling them to **work together seamlessly**.
 
-![Uploading TASK 2 API.png…]()
+![Logo]
 
 ---
+
 
 
 
