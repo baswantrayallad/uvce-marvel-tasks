@@ -150,7 +150,7 @@ We will use the **California Housing dataset** to test the model on real-world d
 ---
 ```
  ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%205%20Linear%20Regression%201.png?raw=true)
- ```
+ 
 
 ## Task 6: The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
@@ -176,7 +176,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
 
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%206%20Martix%20Puzzle%202.png?raw=true)
 
-```
+
 
 
 
@@ -186,6 +186,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
   
 
  
+
 
 
 
