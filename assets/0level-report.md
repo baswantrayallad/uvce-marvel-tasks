@@ -54,8 +54,9 @@ function getWeather(city) {
   });
 }
 
-
+---
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%202%20API.png?raw=true)
 
 ---
+
 
