@@ -5,9 +5,9 @@
 Learnt how to use 3D printer. STL file which is the real pre model file to which the printer creates model. Learnt slicing, giving appropriate adjustments, etc using Ultimaker Cura. Cura - converts the .stl file to printer readable instructions .gcode
 When gcode was sent to printer, which printed the object  layer by layer.
 
-## ⚡ Task 2: API
+##  Task 2: API
 
-### 🌐 What is an API?
+###  What is an API?
 An **API (Application Programming Interface)** is a set of rules and tools that allows different software applications to communicate with each other.  
 It defines the methods and data formats that applications can use to **request and exchange information**.  
 
@@ -60,9 +60,9 @@ function getWeather(city) {
 
 ---
 
-## 🐙 Task 3: Working with GitHub
+##  Task 3: Working with GitHub
 
-### 🌐 What is GitHub?
+###  What is GitHub?
 GitHub is a platform that allows developers to **automate software development workflows** directly within a repository.  
 It supports **Continuous Integration and Continuous Deployment (CI/CD)**, making it easier for teams to collaborate and streamline their development pipelines.
 
@@ -79,9 +79,9 @@ It supports **Continuous Integration and Continuous Deployment (CI/CD)**, making
 - A **Pull Request (PR)** is a way to **propose code changes** to a project.  
 - Developers submit a PR for **review and integration** into the main codebase.  
 - PRs are essential for:
-  - Peer code reviews 👨‍💻👩‍💻  
-  - Team collaboration 🤝  
-  - Maintaining project quality ✅  
+  - Peer code reviews   
+  - Team collaboration 
+  - Maintaining project quality  
 
 ---
 
@@ -122,7 +122,7 @@ cat file1.txt file2.txt
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
 ```
 
-## 🧠 Task 5: Build Your Own Brain - Linear Regression from Scratch
+## Task 5: Build Your Own Brain - Linear Regression from Scratch
 
 In this task, we dive into the **core of machine learning** by implementing **Linear Regression from scratch** and comparing it with **scikit-learn’s implementation**.  
 We will use the **California Housing dataset** to test the model on real-world data.
@@ -150,6 +150,26 @@ We will use the **California Housing dataset** to test the model on real-world d
 ---
 ```
  ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%205%20Linear%20Regression%201.png?raw=true)
+ ```
+
+## Task 6: The Matrix Puzzle — Decode with NumPy & Reveal the Image
+
+In this task, I worked with **NumPy** and **Matplotlib** to solve a visual puzzle.  
+The goal was to decode a scrambled matrix and reconstruct the hidden image using array operations.
+
+---
+
+### Objectives
+- Manipulate and decode a scrambled NumPy matrix.  
+- Apply **reshaping, slicing, flipping, and transposing** operations.  
+- Visualize the hidden image using `matplotlib.pyplot.imshow()`.  
+
+---
+
+### Expected Outcomes
+- Confidence with **NumPy operations** like reshaping, slicing, flipping, transposing.  
+- Ability to **visualize 2D arrays** as images.  
+- Improved **debugging & puzzle-solving skills** through experimentation. 
 
 
 
@@ -161,6 +181,7 @@ We will use the **California Housing dataset** to test the model on real-world d
   
 
  
+
 
 
 
