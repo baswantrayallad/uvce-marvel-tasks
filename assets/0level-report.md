@@ -120,9 +120,11 @@ cat file1.txt file2.txt
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%201.png?raw=true)
 
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
-```
 
+```
+```
 ## Task 5: Build Your Own Brain - Linear Regression from Scratch
+
 
 In this task, we dive into the **core of machine learning** by implementing **Linear Regression from scratch** and comparing it with **scikit-learn’s implementation**.  
 We will use the **California Housing dataset** to test the model on real-world data.
@@ -263,6 +265,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
