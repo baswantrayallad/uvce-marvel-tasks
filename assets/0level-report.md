@@ -209,7 +209,7 @@ The task of **speed control of a DC motor using Arduino UNO and L298N motor driv
 
 For this task, I worked with the **ESP32 microcontroller** and learned how to create a web server to control an LED through its GPIO pins. I Installed and configured **Arduino IDE** with ESP32 board support. Connected the ESP32 board and verified communication with the IDE. Wrote and uploaded a program that created a simple web server. Served an HTML page with **ON/OFF buttons**. Accessed the ESP32’s **IP address** via a browser. Controlled an LED connected to ESP32 GPIO pins based on user input.  
 
-![ESP32 toggling LED's](?raw=true)
+![ESP32 toggling LED's](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2011%20ESP32%20GIF.mp4?raw=true)
 
 ---
 
@@ -225,6 +225,7 @@ For this task, I worked with the **ESP32 microcontroller** and learned how to cr
   
 
  
+
 
 
 
