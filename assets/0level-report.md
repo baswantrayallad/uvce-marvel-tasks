@@ -66,3 +66,6 @@ function getWeather(city) {
 
 
 
+
+
+
