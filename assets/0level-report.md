@@ -200,19 +200,18 @@ It supports popular microcontrollers like the Arduino Uno, Micro, H-brigde, pote
 
 The task of **speed control of a DC motor using Arduino UNO and L298N motor driver** was successfully completed. The experiment provided practical exposure to motor driver interfacing, PWM control, and real-time hardware validation.
 
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2010%20%20Speed%20Control%20of%20DC%20Motor.png?raw=true)
 
 
 
 
+### Task 11: LED Toggle Using ESP32  
 
+For this task, I worked with the **ESP32 microcontroller** and learned how to create a web server to control an LED through its GPIO pins. I Installed and configured **Arduino IDE** with ESP32 board support. Connected the ESP32 board and verified communication with the IDE. Wrote and uploaded a program that created a simple web server. Served an HTML page with **ON/OFF buttons**. Accessed the ESP32’s **IP address** via a browser. Controlled an LED connected to ESP32 GPIO pins based on user input.  
 
-## **Task 11: LED Toggle Using ESP**
-Here, i configured the Arduino IDE to program the ESP32 and used the WiFi.h library to connect the board to a local network. Two LEDs were connected to GPIO26 and GPIO27. A standalone web server was created on port 80, which served a simple HTML interface with ON/OFF buttons.
+![ESP32 toggling LED's](?raw=true)
 
-
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2011%20(1).jpg?raw=true)
-
-After uploading the code, the ESP32 displayed an **IP address** on the Serial Monitor. Accessing this IP in a browser opened the control page. Clicking the buttons successfully toggled the LEDs in real time.
+---
 
 
 
@@ -226,6 +225,7 @@ After uploading the code, the ESP32 displayed an **IP address** on the Serial Mo
   
 
  
+
 
 
 
