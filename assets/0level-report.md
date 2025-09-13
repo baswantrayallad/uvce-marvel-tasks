@@ -117,9 +117,19 @@ echo "Random Text File 2" > file2.txt
 cat file1.txt file2.txt
 ```
 
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%201.png?raw=true)
+
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
+
+
+
+
+
+
   
 
  
+
 
 
 
