@@ -95,9 +95,32 @@ It supports **Continuous Integration and Continuous Deployment (CI/CD)**, making
   ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%203%20Working%20with%20github%202.png?raw=true)
 
  ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%203%20Working%20with%20github%203.png?raw=true)
+
+ ---
+
+ # Task 4: Get familiar with the command line on ubuntu:
+
+* Create a folder named test.
+* cd into that folder.
+* Create a blank file without using any text editor.
+* List the files in that folder.
+* Create 2600 folders in this folder where each folder is named M90.
+```shell
+for i in {1..2600}; do
+    mkdir "M$i"
+done
+```
+* Concatenate two text files containing any random text and display them on the terminal.
+```shell
+echo "Random Text File 1" > file1.txt
+echo "Random Text File 2" > file2.txt
+cat file1.txt file2.txt
+```
+
   
 
  
+
 
 
 
