@@ -178,7 +178,7 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
 
 
 ## **Task 7: Creating Portfolio webpage**
-I have created  a basic portfolio webpage using html5 and CSS.
+I have created  a basic portfolio webpage using HTML + CSS (via Tailwind) + JavaScript (via React/Next.js).
 
 [link](https://github.com/baswantrayallad/portfolio-website)
 
@@ -194,6 +194,7 @@ I have created  a basic portfolio webpage using html5 and CSS.
   
 
  
+
 
 
 
