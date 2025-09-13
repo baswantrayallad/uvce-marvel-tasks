@@ -213,6 +213,16 @@ For this task, I worked with the **ESP32 microcontroller** and learned how to cr
 
 ---
 
+## **Task 12: Soldering Prerequisites**
+
+As part of this task, I familiarized myself with the soldering equipment available in the lab, including the soldering iron, solder wire, flux, and soldering wick. The coordinator demonstrated the safe handling of these tools and explained their purpose.
+
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2012%201.png?raw=true)
+
+I then performed a basic soldering exercise on a perf board (green PCB) by soldering a single LED. This gave me hands-on practice in heating the joint, applying solder.,,
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2012%202.png?raw=true)
+
+
 
 
 
@@ -225,6 +235,7 @@ For this task, I worked with the **ESP32 microcontroller** and learned how to cr
   
 
  
+
 
 
 
