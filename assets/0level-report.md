@@ -180,6 +180,8 @@ The goal was to decode a scrambled matrix and reconstruct the hidden image using
 ## **Task 7: Creating Portfolio webpage**
 I have created  a basic portfolio webpage using HTML + CSS (Tailwind) + JavaScript (React/Next.js).
 
+ ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%207%20portfolio.png?raw=true)
+
 [link](https://github.com/baswantrayallad/portfolio-website)
 
 ---------------------
@@ -263,6 +265,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
