@@ -122,6 +122,7 @@ cat file1.txt file2.txt
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%204%20Working%20with%20ubuntu%202.png?raw=true)
 
 
+
 ## Task 5: Build Your Own Brain - Linear Regression from Scratch
 
 
@@ -147,11 +148,9 @@ We will use the **California Housing dataset** to test the model on real-world d
    - Implementing from scratch gave me a clear view of the math behind the model.  
    - Using scikit-learn showed the power and convenience of built-in libraries.  
    - I understood the trade-off between **learning by building from scratch** vs **efficiency in real-world projects**.  
-
----
 ```
  ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%205%20Linear%20Regression%201.png?raw=true)
- 
+ ```
 
 ## Task 6: The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
@@ -264,6 +263,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
