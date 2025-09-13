@@ -148,6 +148,8 @@ We will use the **California Housing dataset** to test the model on real-world d
    - I understood the trade-off between **learning by building from scratch** vs **efficiency in real-world projects**.  
 
 ---
+```
+ ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%205%20Linear%20Regression%201.png?raw=true)
 
 
 
@@ -159,6 +161,7 @@ We will use the **California Housing dataset** to test the model on real-world d
   
 
  
+
 
 
 
