@@ -240,6 +240,25 @@ The burglar alarm should work based on the whether the **door is locked or open*
 ![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2015%20Active%20Participation.png?raw=true)
 
 
+---------------
+
+## **Task 18: Sad Servers**
+
+One of my Fav. task - we are time-bound of 20 mins, we needed to find the Murderer name, there were 20 total hints but i viewed only 3, and i was able to do it in 12 mins, used a bunch of linux kernal commands "grep", "tail" and grep -A5 for first lines and grep - C5 for first and last 5 lines. and the murderer name echoin "mysolution" file and displayed the md5sum encryption which matched the expected outcome.
+
+
+### **Snippets:**
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(1).png?raw=true)
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(2).png?raw=true)
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(3).png?raw=true)
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(4).png?raw=true)
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(6).png?raw=true)
+![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(7).png?raw=true)
+
+------------------
+
+
+
 
 ## **Task 19: Making of a WebApp - Notes-made-easy**
 i have used JavaScript for working of taking input note, adding and deletion.
@@ -267,6 +286,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
