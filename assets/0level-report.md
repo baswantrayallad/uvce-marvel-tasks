@@ -244,7 +244,9 @@ The burglar alarm should work based on the whether the **door is locked or open*
 
 ## **Task 18: Sad Servers**
 
-One of my Fav. task - we are time-bound of 20 mins, we needed to find the Murderer name, there were 20 total hints but i viewed only 3, and i was able to do it in 12 mins, used a bunch of linux kernal commands "grep", "tail" and grep -A5 for first lines and grep - C5 for first and last 5 lines. and the murderer name echoin "mysolution" file and displayed the md5sum encryption which matched the expected outcome.
+SadServers is an online platform similar to LeetCode for Linux, where instead of solving coding puzzles, users troubleshoot real-world server issues. Each server is “sad” because of a misconfiguration or challenge, and the goal is to make it “happy” again by fixing the problem using Linux commands.
+
+In this task, I worked on the Command Line Murders challenge, a problem designed to improve Linux command-line investigation skills.
 
 
 ### **Snippets:**
@@ -285,6 +287,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
