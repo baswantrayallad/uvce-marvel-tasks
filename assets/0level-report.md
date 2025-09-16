@@ -248,12 +248,11 @@ One of my Fav. task - we are time-bound of 20 mins, we needed to find the Murder
 
 
 ### **Snippets:**
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(1).png?raw=true)
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(2).png?raw=true)
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(3).png?raw=true)
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(4).png?raw=true)
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(6).png?raw=true)
-![Logo](https://github.com/Shrihari6/Marvel-Level0/blob/DA_chatbot/Photos/Task%2018(7).png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2018%20Sad%20Server%201.png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2018%20Sad%20Server%202.png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2018%20Sad%20Server%203.png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2018%20Sad%20Server%204.png?raw=true)
+![Logo](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/master/assets/TASK%2018%20sad%20server%205.png?raw=true)
 
 ------------------
 
@@ -286,6 +285,7 @@ Css for styling and cascading the webapp
   
 
  
+
 
 
 
