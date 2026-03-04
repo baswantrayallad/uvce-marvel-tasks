@@ -39,10 +39,10 @@ This Deployment utilizes a IAAS model
 
 **Elastic Fabric Adapter (EFA)**: A network interface for Amazon EC2 instances that enables you to run applications requiring high levels of inter-node communication (like High-Performance Computing) at scale.
 
-![Image3](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202025-10-30%20230549.png?raw=true)
-![Image5](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202025-10-30%20233247.png?raw=true)
+![Image3](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task3.png?raw=true)
+![Image5](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task3(1).png?raw=true)
 
-![Image4](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202025-10-30%20233834.png?raw=true)
+![Image4](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task3(2).png?raw=true)
 
 ---------------------------
 
@@ -52,11 +52,10 @@ DynamoDB is a fully managed NoSQL database service. Unlike traditional databases
 
 CloudFront is a Content Delivery Network (CDN). Its primary job is to speed up the distribution of your website’s content (like images, videos, or HTML files) to users across the globe.
 
-![cloudfront](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20122923.png?raw=true)
+![cloudfront](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task2%26Task4(1).png?raw=true)
 
-![Dynomo DB](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010217.png?raw=true)
+![Dynomo DB](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task2%26Task4(2).png?raw=true)
 
-![dynooDB](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010112.png?raw=true)
 
 
 
@@ -71,7 +70,7 @@ Kali is not "installed" like Windows; it is "composed." The engineers use a fram
 **Metapackages**: To manage the massive toolset, Kali uses Metapackages (e.g., kali-linux-top10, kali-linux-headless). These are "empty" packages that contain a list of dependencies. Installing one metapackage triggers the logic to pull every tool required for that specific engineering role.
 
 Social Engineering Attacks: 
-![SET](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-25%20235957.png?raw=true)
+![SET](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task5.png?raw=true)
 
 ## TASK 6: Socket.IO
 
@@ -83,16 +82,14 @@ Social Engineering Attacks:
 
 **Multiplexing** (Namespaces/Rooms): You can split one connection into multiple channels. For a chat app, "Rooms" allow you to isolate conversations so that User A and User B don't see User C's messages.
 
-![Socket.io](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-01-31%20175347.png?raw=true)
-
-![Socket io](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010554.png)
+![Socket.io](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/TASK6%20socket.io.png?raw=true)
 
 ## TASK 7: OSI
 
 The OSI reference model
 The OSI model is used to connect to the open systems—these are the systems that are open and communicate with other systems. By using this model, we do not depend on an operating system anymore, so we are allowed to communicate with any operating system on any computer. This model contains seven layers, where each layer has a specific function and defines the way data is handled on certain different layers. The seven layers that are contained in this model are the Physical layer, Data Link layer, Network layer, Transport layer, Session layer, Presentation layer, and the Application layer.
 
-![osi](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20011317.png)
+![osi](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task7%20osi-model.png)
 
 ## TASK 8: IaaS, PaaS and SaaS
 
@@ -155,7 +152,9 @@ Email, collaboration tools, CRM
 Document management
 Accounting and billing systems
 
-[![saas, paas, iaas](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/OIP.jpg)](https://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples)
+[![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS.png)
+
+[![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS1.png)
 
 
 ## TASK 9: Encrypted  Messaging - Chat App
@@ -176,11 +175,11 @@ so if we send the word "Hello" five times in a row, the Encrypted Data seen in t
 
 
 The Conclusion: This proves that without the exact derived key, the data is mathematically useless.
-![enc](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20112348.png?raw=true)
+![enc](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(1).png?raw=true)
 
-![enc-dev](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20113137.png?raw=true)
+![enc-dev](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(2).png?raw=true)
 
 ## TASK 10: WEB SCRAPPING
 Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet. Beautiful Soup is a useful tool in your web scraping toolkit, allowing you to conveniently extract specific information from HTML, even from complex static websites.
 
-![webscraping](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20015742.png)
+![webscraping](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task10.png)
