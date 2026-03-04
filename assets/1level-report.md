@@ -152,9 +152,9 @@ Email, collaboration tools, CRM
 Document management
 Accounting and billing systems
 
-[![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS.png)
+![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS.png)
 
-[![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS1.png)
+![saas, paas, iaas](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task8%20IPS1.png)
 
 
 ## TASK 9: Encrypted  Messaging - Chat App
