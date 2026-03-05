@@ -291,21 +291,12 @@ GCM mode generates a **cryptographic authentication tag** along with the encrypt
 - If an attacker modifies even a **single bit** of the encrypted data during transmission, the authentication tag will no longer match.
 - In such cases, the `decryptMessage` function will detect the tampering and **reject the message instead of displaying corrupted data**.
 
----
-
-### Initialization Vector (IV)
-
-Each encrypted message also uses an **Initialization Vector (IV)**.
-
-Example from the code:
-```javascript
-crypto.getRandomValues(new Uint8Array(12))
-
-
 The Conclusion: This proves that without the exact derived key, the data is mathematically useless.
 ![enc](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(1).png?raw=true)
 
 ![enc-dev](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(2).png?raw=true)
+
+---
 
 ## TASK 10: WEB SCRAPPING
 
