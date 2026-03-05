@@ -45,14 +45,23 @@ Level 1:
 ----------
 
 ## TASK 3: Application on EC2 instance
-I've used a virtual machine provisioned within  AWS Elastic Compute Cloud {EC2} ecosystem to host a Jenkins instance for CI & CD automation.
-This Deployment utilizes a IAAS model 
+For this task, a virtual machine was created using **Amazon Elastic Compute Cloud (EC2)** to deploy and run a **Jenkins server** for Continuous Integration and Continuous Deployment (CI/CD).
 
-#### Standard networking is often too slow for high-performance applications (like Big Data or ML).
+EC2 provides on-demand computing resources in the cloud, allowing users to launch and manage virtual machines without maintaining physical hardware. In this setup, Jenkins is installed on the EC2 instance to automate building, testing, and deployment of applications.
 
-**Enhanced Networking (ENA)**: Uses Single Root I/O Virtualization (SR-IOV) to provide higher I/O performance and lower CPU utilization. Essential for applications requiring high packet-per-second (PPS) performance.
+This type of deployment follows the **Infrastructure as a Service (IaaS)** cloud model, where AWS provides the virtual infrastructure (servers, networking, storage), while the user is responsible for configuring the operating system, software, and application environment.
 
-**Elastic Fabric Adapter (EFA)**: A network interface for Amazon EC2 instances that enables you to run applications requiring high levels of inter-node communication (like High-Performance Computing) at scale.
+---
+
+### High Performance Networking in EC2
+
+Standard network interfaces may not deliver sufficient performance for compute-intensive workloads such as **Big Data processing, Machine Learning training, or High Performance Computing (HPC)**. AWS provides enhanced networking solutions to address this limitation.
+
+#### Enhanced Networking (ENA)
+Enhanced Networking using the **Elastic Network Adapter (ENA)** improves network throughput and reduces CPU overhead. It uses **Single Root I/O Virtualization (SR-IOV)** technology to provide high packet-per-second (PPS) performance and low latency, which is useful for network-intensive applications.
+
+#### Elastic Fabric Adapter (EFA)
+**Elastic Fabric Adapter (EFA)** is a specialized network interface designed for large-scale distributed computing workloads. It allows EC2 instances to communicate with each other with very low latency and high bandwidth, which is essential for applications such as **scientific simulations, HPC workloads, and distributed machine learning systems**.
 
 ![Image3](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task3.png?raw=true)
 ![Image5](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task3(1).png?raw=true)
@@ -63,9 +72,21 @@ This Deployment utilizes a IAAS model
 
 ## TASK 2 & TASK 4: AWS CloudFront & Dynomo DB 
 
-DynamoDB is a fully managed NoSQL database service. Unlike traditional databases (like MySQL) that use tables with strict rows and columns, DynamoDB is designed for high-performance applications that need to scale massively
+### Amazon DynamoDB
+Amazon **DynamoDB** is a fully managed **NoSQL database service** provided by AWS. It is designed to handle large volumes of data while maintaining high speed and reliability.
 
-CloudFront is a Content Delivery Network (CDN). Its primary job is to speed up the distribution of your website’s content (like images, videos, or HTML files) to users across the globe.
+Unlike traditional relational databases such as **MySQL or PostgreSQL**, which organize data into structured tables with fixed rows and columns, DynamoDB uses a flexible data model. This allows developers to store and retrieve large amounts of data with minimal latency.
+
+DynamoDB automatically manages tasks such as **scaling, backup, replication, and performance optimization**, making it suitable for applications that require fast and consistent data access at any scale.
+
+---
+
+### Amazon CloudFront
+Amazon **CloudFront** is a **Content Delivery Network (CDN)** service offered by AWS. Its main purpose is to deliver website content to users quickly and efficiently.
+
+CloudFront works by storing cached copies of website content such as **images, videos, JavaScript files, CSS, and HTML pages** in multiple edge locations around the world. When a user requests the content, it is delivered from the nearest edge location instead of the original server.
+
+This process reduces latency, improves website loading speed, and enhances the overall user experience for visitors accessing the website from different geographic locations.
 
 ![cloudfront](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task2%26Task4(1).png?raw=true)
 
@@ -77,32 +98,94 @@ CloudFront is a Content Delivery Network (CDN). Its primary job is to speed up t
 
 
 ## TASK 5: KALI Linux - 
-**Infrastructure as Code**: The live-build Engine
-Kali is not "installed" like Windows; it is "composed." The engineers use a framework called live-build.
+## Infrastructure as Code: The Live-Build Engine
 
-**The Build Pipeline**: Instead of manually configuring a system, engineers define the OS in a Git repository (live-build-config). When they trigger a build, a script pulls the Debian core, overlays Kali-specific configurations, and "chroots" (changes root) into the environment to install 600+ tools.
+Kali Linux is not installed in the same way as traditional operating systems like Windows. Instead, it is **built and assembled using an automated system**. The Kali development team uses a framework called **live-build** to construct the operating system.
 
-**Metapackages**: To manage the massive toolset, Kali uses Metapackages (e.g., kali-linux-top10, kali-linux-headless). These are "empty" packages that contain a list of dependencies. Installing one metapackage triggers the logic to pull every tool required for that specific engineering role.
+### The Build Pipeline
+Rather than manually configuring every component of the system, developers define the entire operating system configuration inside a **Git repository** called `live-build-config`.
+
+When a build process is triggered:
+1. The script downloads the **Debian base system**.
+2. Kali-specific configurations and packages are added on top of it.
+3. The build system then uses **chroot (change root)** to enter the build environment and install more than **600 security and penetration testing tools**.
+
+This automated pipeline ensures that Kali Linux can be **reproduced consistently and updated efficiently**.
+
+### Metapackages
+To manage the large number of security tools included in Kali Linux, the developers use **Metapackages**.
+
+A metapackage is essentially an **empty package that contains a list of dependencies** rather than actual software. When a user installs a metapackage, it automatically installs all the tools listed within it.
+
+Examples include:
+- `kali-linux-top10` – installs the most commonly used penetration testing tools.
+- `kali-linux-headless` – installs tools suitable for server or non-GUI environments.
+
+This approach allows users to install only the tools relevant to their **specific cybersecurity tasks or roles**.
 
 Social Engineering Attacks: 
 ![SET](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task5.png?raw=true)
 
 ## TASK 6: Socket.IO
+## Socket.IO Architecture
 
-**Socket.IO** is more than just WebSockets. It is a management layer that sits on top of two sub-layers:
+**Socket.IO** is not limited to just WebSockets. It acts as an additional communication layer that manages real-time connections between the client and server. This layer works on top of two important components that handle connectivity and message management.
 
-**Engine.IO**: The low-level engine that handles the connection. It first tries to connect via HTTP Long Polling for safety, then "upgrades" the connection to WebSockets for maximum speed.
+### Engine.IO
+**Engine.IO** is the core communication engine used by Socket.IO to establish and maintain connections.
 
-**Packet Buffering**: If a user’s connection drops (e.g., they go through a tunnel), Socket.IO automatically buffers messages and sends them the moment they reconnect.
+When a client connects:
+1. The system initially establishes a connection using **HTTP Long Polling** to ensure compatibility and reliability.
+2. After the connection is verified, it attempts to **upgrade the connection to WebSockets** for faster and more efficient real-time communication.
 
-**Multiplexing** (Namespaces/Rooms): You can split one connection into multiple channels. For a chat app, "Rooms" allow you to isolate conversations so that User A and User B don't see User C's messages.
+This fallback mechanism ensures that communication still works even in networks where WebSockets are restricted.
+
+### Packet Buffering
+Socket.IO includes a **packet buffering mechanism** that improves reliability.
+
+If a user's connection is temporarily interrupted (for example, due to poor network connectivity or moving through a tunnel), Socket.IO stores outgoing messages in a buffer. Once the connection is restored, the buffered messages are automatically transmitted to the client so that no important communication is lost.
+
+### Multiplexing (Namespaces and Rooms)
+Socket.IO supports **multiplexing**, which allows multiple communication channels to operate over a single connection.
+
+This is implemented using **Namespaces and Rooms**:
+- **Namespaces** allow separation of different application features.
+- **Rooms** allow grouping of users within a namespace.
+
+For example, in a chat application, each room can represent a separate conversation group. Messages sent within a room are only delivered to users who are part of that room, ensuring that conversations remain isolated.
 
 ![Socket.io](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/TASK6%20socket.io.png?raw=true)
 
 ## TASK 7: OSI
 
-The OSI reference model
-The OSI model is used to connect to the open systems—these are the systems that are open and communicate with other systems. By using this model, we do not depend on an operating system anymore, so we are allowed to communicate with any operating system on any computer. This model contains seven layers, where each layer has a specific function and defines the way data is handled on certain different layers. The seven layers that are contained in this model are the Physical layer, Data Link layer, Network layer, Transport layer, Session layer, Presentation layer, and the Application layer.
+## OSI Reference Model
+
+The **Open Systems Interconnection (OSI) Reference Model** is a conceptual framework used to understand how different computer systems communicate over a network. It provides a standard structure that allows devices and software from different vendors and operating systems to interact with each other.
+
+Because of this standardized model, communication is not restricted to a specific operating system or hardware platform. Systems built with different technologies can still exchange data effectively.
+
+### The Seven Layers of the OSI Model
+
+1. **Physical Layer**  
+   Responsible for the transmission of raw bits over a physical medium such as cables, fiber optics, or wireless signals.
+
+2. **Data Link Layer**  
+   Ensures reliable data transfer between directly connected devices and handles error detection and correction.
+
+3. **Network Layer**  
+   Manages logical addressing and routing so that data packets can travel between different networks.
+
+4. **Transport Layer**  
+   Provides end-to-end communication, ensuring data is delivered completely and in the correct order.
+
+5. **Session Layer**  
+   Establishes, manages, and terminates communication sessions between applications.
+
+6. **Presentation Layer**  
+   Translates data into a format that the application layer can understand, and may handle encryption or compression.
+
+7. **Application Layer**  
+   The top layer that directly interacts with user applications and provides network services such as web browsing, email, and file transfer.
 
 ![osi](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task7%20osi-model.png)
 
@@ -173,20 +256,50 @@ Accounting and billing systems
 
 
 ## TASK 9: Encrypted  Messaging - Chat App
-here am using PBKDF2 (Password-Based Key Derivation Function 2) it runs 100,000 iterations of hashing to turn a simple string into a cryptographically strong 256-bit key.
-it uses a "salt" (kernel-chat-salt) which ensures that even if two rooms have the same password, their final encryption keys will be different.
-The Encryption Algorithm (AES-256-GCM)
-This is the "gold standard" of encryption.
-AES-256, This is a symmetric-key algorithm used by governments and banks worldwide.
 
-GCM (Galois/Counter Mode) is the "Mode" of operation. Unlike older modes, GCM provides Authenticated Encryption.
+## End-to-End Encryption Implementation
 
-Integrity Check: GCM doesn't just hide the message; it also attaches a "tag." If someone tries to change even one bit of the encrypted data during transmission, the decryptMessage function will throw an error and refuse to show the message.
-also the IV (Initialization Vector) -Point to this line in your code: crypto.getRandomValues(new Uint8Array(12)).
-the IV is a unique "nonce" (number used once) for every single message.
-so if we send the word "Hello" five times in a row, the Encrypted Data seen in the network tab will look completely different every time because the IV changes.
+This application implements **End-to-End Encryption (E2EE)** to ensure that messages remain private and secure between users. The encryption process uses modern cryptographic techniques to protect both the **confidentiality** and **integrity** of transmitted data.
 
-> This application uses End-to-End Encryption (E2EE). We derive a 256-bit key using PBKDF2 with 100k iterations. The actual encryption is AES-GCM, which ensures both Privacy (nobody can read it) and Integrity (nobody can alter it). As shown in the DevTools, the server only acts as a relay for raw ciphertext; it never possesses the keys to decrypt the traffic.
+---
+
+### Key Derivation using PBKDF2
+
+The system uses **PBKDF2 (Password-Based Key Derivation Function 2)** to transform a simple password into a strong encryption key.
+
+- The function performs **100,000 hashing iterations** to strengthen the password.
+- This process produces a **256-bit cryptographic key** suitable for secure encryption.
+
+To improve security, a **salt value** (`kernel-chat-salt`) is added during the key derivation process.  
+The salt ensures that even if two users choose the same password, the generated encryption keys will still be different.
+
+---
+
+### Encryption Algorithm: AES-256-GCM
+
+The application uses **AES-256-GCM**, which is widely considered one of the most secure encryption standards available today.
+
+- **AES-256**: A symmetric encryption algorithm used by governments, financial institutions, and secure communication systems.
+- **GCM (Galois/Counter Mode)**: A mode of operation that provides **Authenticated Encryption**, meaning it ensures both data confidentiality and integrity.
+
+---
+
+### Integrity Verification
+
+GCM mode generates a **cryptographic authentication tag** along with the encrypted message.
+
+- If an attacker modifies even a **single bit** of the encrypted data during transmission, the authentication tag will no longer match.
+- In such cases, the `decryptMessage` function will detect the tampering and **reject the message instead of displaying corrupted data**.
+
+---
+
+### Initialization Vector (IV)
+
+Each encrypted message also uses an **Initialization Vector (IV)**.
+
+Example from the code:
+```javascript
+crypto.getRandomValues(new Uint8Array(12))
 
 
 The Conclusion: This proves that without the exact derived key, the data is mathematically useless.
@@ -195,6 +308,14 @@ The Conclusion: This proves that without the exact derived key, the data is math
 ![enc-dev](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(2).png?raw=true)
 
 ## TASK 10: WEB SCRAPPING
-Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet. Beautiful Soup is a useful tool in your web scraping toolkit, allowing you to conveniently extract specific information from HTML, even from complex static websites.
+## Beautiful Soup
+
+**Beautiful Soup** is a Python library used for parsing and analyzing **HTML and XML documents**. It helps developers navigate and extract information from web pages in a simple and structured way.
+
+When HTML content is loaded into Beautiful Soup, it converts the document into a **parse tree**. This tree structure allows programmers to easily search, filter, and retrieve specific elements such as tags, attributes, or text content.
+
+Beautiful Soup is commonly used in **web scraping**, where developers collect data from websites. It works particularly well for extracting information from **static web pages**, even when the HTML structure is large or complex.
+
+Using Beautiful Soup, tasks such as finding links, extracting headings, collecting product information, or gathering article content become much easier and more efficient.
 
 ![webscraping](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task10.png)
