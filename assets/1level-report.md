@@ -8,11 +8,26 @@ Level 1:
 ## TASK 1: Git Commands for Version Control
 
 #### Basics:
-- git branch 'name' creates it;
-- git checkout 'name' switches the branch.
-- git merge, combines both branches if they've have progressed, Git creates a new commit that ties the two histories together.
-- git rebase , it creates a new commit to join two branches, rebase moves the entire feature branch so that it begins from the tip of the main branch.
-> Git does not track "file changes" in the way traditional CVs (Concurrent Versions) do. Instead, it uses a Content-Addressable Filesystem.
+### 1. Creating a Branch
+- `git branch <branch-name>` is used to create a new branch in the repository.
+- A branch allows developers to work on new features or experiments without affecting the main project.
+
+### 2. Switching Between Branches
+- `git checkout <branch-name>` changes the working directory to the specified branch.
+- After switching, all commits and changes will belong to that branch.
+
+### 3. Merging Branches
+- `git merge <branch-name>` integrates the changes from one branch into another branch.
+- When two branches have different commit histories, Git automatically creates a **merge commit** to combine them.
+
+### 4. Rebasing
+- `git rebase <branch-name>` is another method of integrating changes from one branch into another.
+- Instead of creating a merge commit, rebase **moves the feature branch to start from the latest commit of the target branch**, producing a cleaner linear history.
+
+### How Git Stores Data
+> Git does not record changes to files in a traditional manner like some version control systems.  
+> Instead, Git uses a **Content-Addressable Storage System**, where each file and commit is stored based on a unique hash generated from its content.  
+> This mechanism ensures data integrity and efficient tracking of project history.
 
 
 ![Image1](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/TASK1%20git1.png?raw=true)
