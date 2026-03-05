@@ -308,6 +308,7 @@ The Conclusion: This proves that without the exact derived key, the data is math
 ![enc-dev](https://github.com/baswantrayallad/uvce-marvel-tasks/blob/main/Task9(2).png?raw=true)
 
 ## TASK 10: WEB SCRAPPING
+
 ## Beautiful Soup
 
 **Beautiful Soup** is a Python library used for parsing and analyzing **HTML and XML documents**. It helps developers navigate and extract information from web pages in a simple and structured way.
